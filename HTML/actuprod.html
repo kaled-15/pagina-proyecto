@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Registro para Docentes</title>
+    <link rel="shortcut icon" href="../MULTIMEDIA/IMAGEN/alexcgdesign.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/resgisdocentes.css">
+    <link href="" rel="stylesheet">
+  </head>	
+  <body>
+  <header>
+        <nav>
+            <a href="../HTML/tienda.html"><font color="#121212">Tienda</font color></a>
+            <a href="../HTML/iniciarsesion.html"><font color="#121212">Iniciar sesion</font color></a>
+        </nav>
+			<h2 class="titulo"></h2>
+		 <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+			<h2 class="titulo">Formulario para eliminar un producto</h2>
+			
+			</header>
+					        <style>
+            
+            form {
+                    position: relative;
+                    width : 500px;
+                    height: 250PX;
+                    margin: 0 auto;
+                    background-color: #d5d4d7;
+            }
+            
+            .table{
+                    width: 100%;
+            }
+            
+            .nombre{
+                    background:  ;
+                    height: 39px;
+                    color: #642a73;
+                    font-weight: 700;
+                
+                
+            }
+         
+            .IbI_codigo{
+                    position: absolute;
+                    left : 60px;
+                    top  : 50px;
+                    color: #572f99;
+            }
+            
+			
+          
+            .txt_codigo{
+                    position: absolute;
+                    left : 60px;
+                    top  : 70px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			
+		 
+			
+           
+            .btn_registrar{
+                    width: 100px;
+                    height: 40px;
+                    position: absolute;
+                    left : 200px;
+                    top  : 170px;
+            }
+            
+            
+	
+			</style>
+    
+	<center>
+        
+        <table border="2px">
+            
+            <th>
+                
+            
+			<form  class="form" method="POST" action="../PHP/actuprod.php">
+                
+                <label>
+                    <table class="table">
+                        <tr>
+                            <td class="nombre">
+                                <center> Iingresa el codigo de barras </center>
+                            </td>
+                        </tr>
+                    </table>
+                </label>
+                
+               
+		<p class="IbI_codigo"> Codigo de barras </p><input type="text" class="txt_codigo" id="barra" name="barra" placeholder="codigo de barras"  required>
+													
+				<input type="submit" class="btn_registrar" id="btnActu" name="btnActu" value="Actualizar"/>								
+				
+				
+                </form>
+  
+  
+  </body>
+</html>

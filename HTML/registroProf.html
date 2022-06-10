@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Registro para Docentes</title>
+    <link rel="shortcut icon" href="../MULTIMEDIA/IMAGEN/alexcgdesign.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/resgisdocentes.css">
+    <link href="" rel="stylesheet">
+  </head>	
+  <body>
+  <header>
+        <nav>
+            <a href="../HTML/menuresgistro.html"><font color="#121212">Menu registro</font color></a>
+            <a href="../HTML/iniciarsesion.html"><font color="#121212">Iniciar sesion</font color></a>
+			<a href="../HTML/elimprof.html"><font color="#121212">Eliminar Docente</font color></a>
+			<a href="../HTML/actualizardoc.html"><font color="#121212">Actualizar Docente</font color></a>
+			<a href="../HTML/consuldoc.html"><font color="#121212">Conseultar Docente </font color></a>
+        </nav>
+			<h2 class="titulo"></h2>
+		 <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+			<h2 class="titulo">Formulario para restrarse como Docente</h2>
+			
+			</header>
+					        <style>
+            
+            form {
+                    position: relative;
+                    width : 500px;
+                    height: 600PX;
+                    margin: 0 auto;
+                    background-color: #d5d4d7;
+            }
+            
+            .table{
+                    width: 100%;
+            }
+            
+            .nombre{
+                    background:  ;
+                    height: 39px;
+                    color: #642a73;
+                    font-weight: 700;
+                
+                
+            }
+         
+            .IbI_correo{
+                    position: absolute;
+                    left : 60px;
+                    top  : 50px;
+                    color: #572f99;
+            }
+            .IbI_contraseña{
+                    position: absolute;
+					left : 60px;
+                    top  : 100px;
+                    color: #572f99;
+            }
+			.IbI_nombre{
+                    position: absolute;
+                    left : 60px;
+                    top  : 150px;
+                    color: #642a73;
+            }
+            .IbI_apepate{
+                    position: absolute;
+                    left : 60px;
+                    top  : 200px;
+                    color: #642a73;
+            }
+            .IbI_apemate{
+                    position: absolute;
+                    left : 60px;
+                    top  : 250px;
+                    color: #642a73;
+            }
+			.IbI_fecha{
+                    position: absolute;
+                    left : 60px;
+                    top  : 300px;
+                    color: #642a73;
+            }
+            .IbI_telefono{
+                    position: absolute;
+					left : 60px;
+                    top  : 350px;
+                    color: #642a73;
+            }
+            
+			
+			.IbI_materia{
+                    position: absolute;
+					left : 60px;
+                    top  : 400px;
+                    color: #642a73;
+            }
+			.IbI_foto{
+                    position: absolute;
+					left : 60px;
+                    top  : 450px;
+                    color: #642a73;
+            }
+          
+            .txt_correo{
+                    position: absolute;
+                    left : 60px;
+                    top  : 70px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			
+		   .txt_contraseña{
+					position: absolute;
+                    left : 60px;
+                    top  : 120px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			.txt_nombre{
+					position: absolute;
+                    left : 60px;
+                    top  : 170px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			
+            .txt_apepate{
+                     position: absolute;
+                    left : 60px;
+                    top  : 220px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+            .txt_apemate{
+                     position: absolute;
+                    left : 60px;
+                    top  : 270px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			.txt_fecha{
+					position: absolute;
+                    left : 60px;
+                    top  : 320px;
+                    color: black;
+                    width: 100px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			   .txt_telefono{
+                     position: absolute;
+                    left : 60px;
+                    top  : 370px;
+                    color: black;
+                    width: 250px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			  
+			
+			
+			.txt_materia{
+					position: absolute;
+                    left : 60px;
+                    top  : 420px;
+                    color: black;
+                    width: 100px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+			.txt_foto{
+					position: absolute;
+                    left : 60px;
+                    top  : 470px;
+                    color: black;
+                    width: 350px;
+                    border: 1px solid black;
+                    border-radius: 4px;
+            }
+           
+            .btn_registrar{
+                    width: 100px;
+                    height: 40px;
+                    position: absolute;
+                    left : 200px;
+                    top  : 530px;
+            }
+            
+            
+	
+			</style>
+    
+	<center>
+        
+        <table border="2px">
+            
+            <th>
+                
+            
+			<form  class="form" method="POST" action="../PHP/registroProf.php">
+                
+                <label>
+                    <table class="table">
+                        <tr>
+                            <td class="nombre">
+                                <center> Iingresa los datos que pide </center>
+                            </td>
+                        </tr>
+                    </table>
+                </label>
+                
+               
+		<p class="IbI_correo"> Correo gmail </p><input type="text" class="txt_correo" id="corre" name="correo" placeholder="codigo de barras" pattern=".+@gmail\.com" size="30" required>
+														
+		<p class="IbI_contraseña"> Contraseña: </p><input type="password" id="contra" name="contra" placeholder="numero de sucursal" class="txt_contraseña" minlength="10" required=true>
+													
+		<p class="IbI_nombre"> Nombre del usuario: </p><input type="text" id="nomb" name="nomb" placeholder="nombre del producto" class="txt_nombre" required=true pattern="[A-Za-z]+" title="En este campo solo se aceptan letras">
+														
+		<p class="IbI_apepate"> Apellido paterno: </p><input type="text"   id="appat" name="appat" placeholder="marca" class="txt_apepate" required=true pattern="[A-Za-z]+" title="En este campo solo se aceptan letras">
+												
+		<p class="IbI_apemate"> Apellido materno: </p><input type="text" id="apmat" name="apmat" placeholder="precio" class="txt_apemate" required=true pattern="[A-Za-z]+" title="En este campo solo se aceptan letras">	
+		
+		<p class="IbI_fecha"> Fecha de nacimiento: </p><input type="date" id="fecha" name="fecha" placeholder="nombre del producto" class="txt_fecha"   required=true value="0000-00-00"  min="2003-01-01" max="2006-12-31">	
+				<p class="IbI_telefono"> Numero de telefono: </p><input type="tel"  id="teledo" name="teledo" placeholder="marca" class="txt_telefono" required=true maxlength="10" minlength="10" pattern="[0-9]{10}" title="El numero de telefono debe ser de 10 digitos">
+				
+				
+				<p class="IbI_materia">Materia : </p><input type="text"  id="materia" name="materia" placeholder="precio"  class="txt_materia" required=true pattern="[A-Z]+"  >
+				<p class="IbI_foto"> Foto </p><input type="file"  class="txt_foto" required=true>
+				
+	
+				
+				<input type="submit" class="btn_registrar" id="btnReg" name="regist" value="Guardar"/>
+				
+                </form>
+  
+  
+  </body>
+</html>
